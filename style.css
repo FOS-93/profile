@@ -1,9 +1,12 @@
-/* TODO: design your profile with CSS */
+/* --- Components design --- */
+@import url("components/experience.css");
+
+
 body {
   background-color: #FFFAEF;
 }
 
-h1, h2 {
+h1, h2, h3 {
   color: rgb(88, 110, 117);
   font-family: 'Cairo', sans-serif;
 }
@@ -15,7 +18,7 @@ h2 {
   font-size: 20px;
 }
 
-p {
+p, li {
   font-size: 14px;
   color: rgb(88, 110, 117);
   font-family: 'Space Mono', monospace;
@@ -48,6 +51,11 @@ a:hover {
 .img-circle {
   border-radius: 50%;
   width: 150px;
+}
+
+.img-circle-exp {
+  border-radius: 50%;
+  width: 80px;
 }
 
 .social-media a {
