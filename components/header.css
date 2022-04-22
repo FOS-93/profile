@@ -1,0 +1,27 @@
+#profile-picture {
+	height: 200px;
+	width: 200px;
+}
+
+#cv-title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: auto;
+	flex-direction: column;
+	background-size: cover;
+    background: linear-gradient(0deg, 
+              rgba(30,30,30,60%) 28%, 
+              rgba(46,46,46,50%) 60%), 
+              url("/Users/fabriziosaezoyarce/Library/Mobile Documents/com~apple~CloudDocs/Dev Ops & Full Stack/Le Wagon/Fabrizio Oyarce CV/corporate-1.jpeg");
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+h1{
+	font-weight: 1000;
+}
+
+/* --- Image --- *
+    background-image: url("/Users/fabriziosaezoyarce/Library/Mobile Documents/com~apple~CloudDocs/Dev Ops & Full Stack/Le Wagon/Fabrizio Oyarce CV/corporate-1.jpeg");

@@ -1,0 +1,14 @@
+#footer{
+  background: black;
+  color: gray;
+  font-weight: 20px;
+  padding: 20px;
+}
+#footer a{
+  font-size: 20px;
+  color: gray;
+}
+#footer a:hover {
+  text-decoration: none;
+  color: white;
+}
